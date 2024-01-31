@@ -1,0 +1,8 @@
+
+Nazwa atrybutu	Zastosowanie	Znaczniki
+type="submit"	Określenie przycisku do wysyłania formularza	<input type="submit">
+scrolling	Kontrola przewijania dla elementu  <iframe>	<iframe scrolling="no"><br><iframe scrolling="yes"><br><iframe scrolling="auto">
+maxlength	Określenie maksymalnej liczby znaków w polu formularza	<input type="text" maxlength="x"><br><textarea maxlength="x"></textarea>
+cellspacing	Określenie odstępu między komórkami w tabeli	<table cellspacing="x">
+id	Nadanie unikalnego identyfikatora elementowi	Dowolny element HTML, np. <div id="header"><br><p id="header">
+type="text"	Określenie, że pole formularza jest polem tekstowym	<input type="text">

@@ -1,0 +1,24 @@
+type="email"
+
+Opis: Określa, że pole formularza jest przeznaczone do wprowadzania adresu e-mail.
+Przykład: <input type="email">
+
+type="url"
+
+Opis: Wskazuje, że pole formularza powinno być używane do wprowadzania adresu URL (adresu internetowego).
+Przykład: <input type="url">
+
+type="tel"
+
+Opis: Określa, że pole formularza jest przeznaczone do wprowadzania numeru telefonu.
+Przykład: <input type="tel">
+
+type="date"
+
+Opis: Wskazuje, że pole formularza powinno umożliwiać wprowadzanie daty.
+Przykład: <input type="date">
+
+type="number"
+
+Opis: Określa, że pole formularza jest przeznaczone do wprowadzania liczby.
+Przykład: <input type="number">
