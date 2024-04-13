@@ -1,0 +1,10 @@
+HTML 5	
+Używa tagu <video> do osadzania wideo.	
+Używa tagu <audio> do osadzania dźwięku.	
+Umożliwia osadzanie wideo i dźwięku bez dodatkowych wtyczek.	
+Posiada wbudowane wsparcie dla różnych formatów wideo i dźwięku, 
+
+HTML
+	Używa tagu <object> lub <embed> do osadzania wideo.
+Wymaga zazwyczaj dodatkowych wtyczek, takich jak Flash Player.
+Wymaga określenia formatu wtyczki i dostarczenia odpowiedniego pliku wideo/dźwięku w tym formacie
