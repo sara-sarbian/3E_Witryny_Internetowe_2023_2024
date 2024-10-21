@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu CSS</title>
+    <style>
+       
+        ul.menu {
+            list-style-type: none;  
+            padding: 0;
+            margin: 0;
+            display: flex;  
+            background-color: #4CAF50;  
+        }
+
+        ul.menu li {
+            margin-right: 20px;
+        }
+
+        ul.menu li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+            background-color: #4CAF50;  
+            transition: background-color 0.3s;
+        }
+
+        
+        ul.menu li a:hover {
+            background-color: #45a049;
+        }
+
+    
+        ul.menu li a:visited {
+            color: #ccc;
+        }
+
+        
+        ul.menu li a:active {
+            background-color: #3e8e41;
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;  
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</body>
+</html>
