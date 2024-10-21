@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obraz Tła w Różnych Pozycjach</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh; 
+        }
+
+        .section {
+            width: 100%; 
+            height: 300px; 
+            color: white; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            background-size: cover; 
+        }
+
+        .top-left {
+            background-image: url('kotkijpg'); 
+            background-position: top left; 
+            background-repeat: no-repeat; 
+            background-color: rgba(0, 51, 102, 0.8); 
+        }
+
+        .center {
+            background-image: url('kotki.jpg'); 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-color: rgba(153, 204, 153, 0.8); 
+        }
+
+        .bottom-right {
+            background-image: url('kotki.jpg'); 
+            background-position: bottom right; 
+            background-repeat: no-repeat; 
+            background-color: rgba(211, 211, 211, 0.8); 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section top-left">
+        <h2>Lewy Górny Róg</h2>
+    </div>
+
+    <div class="section center">
+        <h2>W Centrum</h2>
+    </div>
+
+    <div class="section bottom-right">
+        <h2>Prawy Dolny Róg</h2>
+    </div>
+
+</body>
+</html>

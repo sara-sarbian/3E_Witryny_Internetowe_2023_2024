@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner z Obrazem Tła</title>
+    <style>
+        .banner {
+        
+            height: 300px; 
+            color: white; 
+           padding: 50px;
+           text-align: center;
+        }
+
+        .repeat-x {
+            background-image: url(kotki.jpg); 
+            background-repeat: repeat-x; 
+            background-color: #333; 
+        }
+
+        .repeat-y {
+            background-image: url(kotki.jpg); 
+            background-repeat: repeat-y; 
+            background-color: #333; 
+        }
+
+        .no-repeat {
+            background-image: url(kotki.jpg); 
+            background-repeat: no-repeat; 
+            background-size: contain; 
+            background-color: #333; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner repeat-x">
+        Powtarzanie w poziomie
+    </div>
+
+    <div class="banner repeat-y">
+        Powtarzanie w pionie
+    </div>
+
+    <div class="banner no-repeat">
+        Brak powtarzania
+    </div>
+
+</body>
+</html>

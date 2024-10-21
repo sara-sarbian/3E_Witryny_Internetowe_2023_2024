@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obraz Tła z Trybami Mieszania</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh; 
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .section {
+            width: 100%; 
+            height: 300px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: white; 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+        }
+
+        .multiply {
+            background-image: url('kotki.jpg'), rgba(0, 51, 102, 0.5); 
+            background-blend-mode: multiply; 
+        }
+
+        .screen {
+            background-image: url('kotki.jpg'), rgba(255, 255, 0, 0.5); 
+            background-blend-mode: screen; 
+        }
+
+        .overlay {
+            background-image: url('kotki.jpg'), rgba(255, 0, 0, 0.5); 
+            background-blend-mode: overlay; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section multiply">
+        <h2>Tryb Mieszania: Multiply</h2>
+    </div>
+
+    <div class="section screen">
+        <h2>Tryb Mieszania: Screen</h2>
+    </div>
+
+    <div class="section overlay">
+        <h2>Tryb Mieszania: Overlay</h2>
+    </div>
+
+</body>
+</html>
